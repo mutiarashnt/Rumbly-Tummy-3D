@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
     public int collectedItem = 0;
     public int targetItem = 7;
 
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
     {
         collectedItem++;
 
-        Debug.Log("Item: " + collectedItem);
+        Debug.Log("Item: " + collectedItem + "/" + targetItem);
 
         if (collectedItem >= targetItem)
         {

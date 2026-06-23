@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PickUp
   - pickup
+  - SafeZone
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - Tanah
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

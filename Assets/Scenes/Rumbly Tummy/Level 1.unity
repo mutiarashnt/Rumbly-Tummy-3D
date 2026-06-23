@@ -19139,7 +19139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   collectedItem: 0
-  targetItem: 5
+  targetItem: 7
 --- !u!4 &1878741815
 Transform:
   m_ObjectHideFlags: 0
